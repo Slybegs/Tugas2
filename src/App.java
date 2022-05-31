@@ -14,7 +14,7 @@ public class App {
     Scanner keyboard = new Scanner(System.in);
     
     Bola bola = new Bola();
-    bola.r = 20;
+    bola.r = 20; //untuk mengganti value r
     System.out.println("Menghitung Luas dan Volume Permukaan Bola");
     System.out.print("Masukkan Nilai r : ");
     bola.r = keyboard.nextInt();    
